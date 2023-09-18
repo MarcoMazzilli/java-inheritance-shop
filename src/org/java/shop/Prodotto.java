@@ -6,7 +6,7 @@ public class Prodotto {
 	private String nome;
 	private String marca;
 	private float prezzo;
-	private final int IVA = 22; 
+	private final static int IVA = 22; 
 	
 	Prodotto(String nome, String marca, float prezzo){
 		
@@ -24,7 +24,7 @@ public class Prodotto {
 		return codice;
 	}
 	private void setCodice() {
-		this.codice = "123ABC";
+		this.codice = "LogicaDelCodiceProdotto";
 	}
 
 	//NOME PRODOTTO
