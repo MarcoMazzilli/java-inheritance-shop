@@ -12,6 +12,9 @@ public class Main {
 		
 		Televisore t1 = new Televisore("LG ultramonitor", "LG", 350.99F,55,true);
 		System.out.println(t1);
+		
+		Cuffie c1 = new Cuffie("Atx-50", "Audiotecnica", 120.00f,"rosso",false);
+		System.out.println(c1);
 
 
 	}
